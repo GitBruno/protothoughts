@@ -11,11 +11,9 @@ My static site using [Hexo](https://hexo.io/) with [samljen](https://github.com/
 
 ### Add theme
 
-    git clone https://github.com/GitBruno/hexo-theme-samljen site/themes/samljen
+    git clone https://github.com/GitBruno/hexo-theme-samljen themes/samljen
 
 ## Update
-
-> Hexo commands are run from the `site` folder. 
 
 ### Create a new post
 
