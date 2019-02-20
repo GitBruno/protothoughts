@@ -8,8 +8,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #edefed;
-  color: #111;
+  background-color: #fff;
+  color: #001d23;
   line-height: 1.5;
   font-family: sans-serif;
 }
@@ -19,6 +19,10 @@ body {
 }
 a {
   text-decoration: none;
+  color: #00bade;
+}
+a:visited {
+  color: #00bade;
 }
 .item-container {
   display: flex;
@@ -30,7 +34,7 @@ a {
   justify-content: space-between;
 }
 .item-container .title {
-  color: #f77;
+  color: #00d6ff;
   font-size: 2rem;
   display: inline-block;
   margin-bottom: 1.5rem;
@@ -42,7 +46,7 @@ a {
   align-self: flex-end;
 }
 .vert-line {
-  border-right: 0.1rem solid #f77;
+  border-right: 0.1rem solid #00d6ff;
   position: absolute;
   width: 100%;
   top: 0;
@@ -55,7 +59,7 @@ a {
   padding: 1.5rem;
   width: 50%;
   position: relative;
-  border-bottom: 0.1rem solid #f77;
+  border-bottom: 0.1rem solid #00d6ff;
 }
 .cards-container {
   height: 100vh;
@@ -66,7 +70,7 @@ a {
   height: 100%;
   position: relative;
   overflow: hidden;
-  background-color: #ffe5e5;
+  background-color: #fff;
 }
 .cards-container .cards div {
   position: absolute;
@@ -78,54 +82,38 @@ a {
 .cards-container .cards div a {
   color: inherit;
 }
-.cards-container .cards .site-title {
-  padding: 1.5rem;
-  font-size: 5rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 11;
-  background: #fff;
-}
 .cards-container .cards .bgc-pinker {
-  background-color: #f77;
+  background-color: #00d6ff;
 }
 .cards-container .cards .fc-pink {
-  color: #ffe5e5;
+  color: #fff;
 }
 .cards-container .cards .fc-black {
-  color: #111;
+  color: #001d23;
 }
 .cards-container .cards .fc-pinker {
-  color: #f77;
+  color: #00d6ff;
 }
 .cards-container .cards .bgc-pink {
-  background-color: #ffe5e5;
-}
-.cards-container .subtitle {
-  padding: 0.75rem 2.25rem;
-  color: #f77;
-  text-align: center;
-  border-bottom: 0.1rem solid;
-  font-size: 1.5rem;
+  background-color: #fff;
 }
 .start-container {
   padding: 1.5rem;
   font-size: 2rem;
-  color: #f77;
+  color: #00d6ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 .start-container a {
-  color: #f77;
+  color: #00d6ff;
 }
 .start-container .contact {
   background: #fff;
-  color: #111;
+  color: #001d23;
   padding: 0.75rem 3rem;
-  border: 0.1rem solid #111;
+  border: 0.1rem solid #001d23;
   border-top: 0;
   border-left: 0;
 }
@@ -134,8 +122,8 @@ a {
   max-width: 1100px;
   width: 100%;
   z-index: 50;
-  background: #edefed;
-  border-bottom: 0.1rem solid #f77;
+  background: #fff;
+  border-bottom: 0.1rem solid #00d6ff;
 }
 .header .navbar {
   display: flex;
@@ -153,14 +141,14 @@ a {
 }
 .header .navbar .menu .menu-item .menu-item-link {
   margin: 0 0.75rem;
-  color: #111;
+  color: #001d23;
 }
 .holder {
   padding: 0.7rem 0;
 }
 .info {
   padding: 1.5rem;
-  background: #f77;
+  background: #00d6ff;
   color: #ffe5e5;
 }
 .info .site-title {
@@ -182,17 +170,17 @@ a {
 .post blockquote {
   margin-left: 1.5rem;
   color: #777;
-  border-left: 4px solid #f77;
+  border-left: 4px solid #00d6ff;
 }
 .post blockquote p {
   margin-left: 1.5rem;
 }
 .post a {
-  border-bottom: 2px solid #f77;
-  color: #111;
+  border-bottom: 2px solid #00d6ff;
+  color: #001d23;
 }
 .post a:hover {
-  border-bottom: 2px solid #111;
+  border-bottom: 2px solid #001d23;
 }
 .post p {
   margin: 1.5rem auto;
@@ -213,7 +201,7 @@ a {
 .post h4 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  color: #f77;
+  color: #00d6ff;
   font-weight: 400;
   padding: 0 1.5rem;
 }
@@ -279,7 +267,7 @@ a {
   word-break: break-word;
 }
 .post figure pre .string {
-  color: #f77;
+  color: #00d6ff;
 }
 .post .post-tag-list {
   padding-left: 1.5rem;
@@ -306,13 +294,13 @@ a {
   width: 2rem;
   height: 2rem;
   font-size: 1.5rem;
-  color: #f77;
+  color: #00d6ff;
   margin-right: 1.5rem;
   text-align: center;
   cursor: pointer;
 }
 .post .post-footer .arrow-top:hover {
-  color: #111;
+  color: #001d23;
 }
 .page-nav {
   padding: 1.5rem;
@@ -332,8 +320,8 @@ a {
 }
 footer {
   padding: 0.75rem;
-  border-bottom: 0.1rem solid #f77;
-  background: #edefed;
+  border-bottom: 0.1rem solid #00d6ff;
+  background: #fff;
   color: #878787;
   margin-bottom: 1rem;
 }
@@ -368,23 +356,23 @@ footer .footer-container a {
 }
 .search-mask .search-dialog .search-title {
   padding: 0 0 0.7rem;
-  color: #f77;
+  color: #00d6ff;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
 }
 .search-mask .search-dialog .search-title .close {
-  color: #111;
+  color: #001d23;
   cursor: pointer;
 }
 .search-mask .search-dialog .search-title .close:hover {
-  color: #f77;
+  color: #00d6ff;
   font-weight: 700;
 }
 .search-mask .search-dialog input {
   padding: 0.25rem 0.75rem;
   outline: 0;
-  border: 2px solid #f77;
+  border: 2px solid #00d6ff;
   border-radius: 2rem;
   font-size: 1.2rem;
   max-width: 90%;
@@ -393,17 +381,17 @@ footer .footer-container a {
   font-size: 1.5rem;
   margin-left: 0.5rem;
   position: absolute;
-  color: #f77;
+  color: #00d6ff;
   cursor: pointer;
 }
 .search-mask .search-dialog .down:hover {
-  color: #111;
+  color: #001d23;
 }
 .search-mask .search-dialog hr {
   position: relative;
   margin: 1.5rem auto;
   width: calc(100% - 4px);
-  border: 2px dashed #f77;
+  border: 2px dashed #00d6ff;
   background: #fff;
 }
 .search-mask .search-dialog .archive {
@@ -415,7 +403,7 @@ footer .footer-container a {
 }
 .search-mask .search-dialog .archive .archive-title {
   font-size: 1.5rem;
-  color: #f77;
+  color: #00d6ff;
   margin: 0;
 }
 .search-mask .search-dialog .archive time {
@@ -426,14 +414,14 @@ footer .footer-container a {
   word-break: break-all;
 }
 .search-mask .search-dialog .archive .search-result .search-keyword {
-  color: #f77;
+  color: #00d6ff;
   font-style: initial;
   font-weight: 700;
   margin: 0 0.2rem;
 }
 .search-mask .search-dialog .local-search-empty {
   font-size: 1.5rem;
-  color: #f77;
+  color: #00d6ff;
 }
 .search-mask .search-dialog #local-search-close {
   margin: 0.5rem 0;
@@ -441,11 +429,11 @@ footer .footer-container a {
   display: inline-block;
 }
 .search-mask .search-dialog #local-search-close:hover {
-  color: #f77;
+  color: #00d6ff;
 }
 .search-mask .search-dialog #local-search-result .top {
   font-size: 1.5rem;
-  color: #f77;
+  color: #00d6ff;
   display: inline-block;
   float: right;
   width: 2rem;
@@ -454,7 +442,7 @@ footer .footer-container a {
   cursor: pointer;
 }
 .search-mask .search-dialog #local-search-result .top:hover {
-  color: #111;
+  color: #001d23;
 }
 @media screen and (max-width: 550px) {
   html {
